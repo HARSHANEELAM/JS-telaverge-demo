@@ -1,0 +1,27 @@
+#HTML
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type = "text/javascript", src = 'index1.js'>
+    
+    </script>
+</head>
+
+<body>
+    <p>hello world hadsdsadsdfafasasdhagha</p>
+</body>
+
+</html>
+
+#JS FILE
+
+let name = 'harsha';
+let age = 23;
+let truth = true;
+let firstname = undefined;
+let date = null
