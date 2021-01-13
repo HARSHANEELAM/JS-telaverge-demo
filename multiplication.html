@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Multiplicationbox</title>
+  <script type="text/javascript">
+     rows = prompt("How many rows for your multiplication table?");
+     cols = prompt("How many columns for your multiplication table?");
+    if(rows == "" || rows == null)
+            document.write("invalid");
+            
+            
+     if(cols== "" || cols== null)
+   		 document.write("invalid");
+    ct(rows, cols);
+    function ct(rows, cols)
+    {
+       j=1;
+       output = "<table border='3' width='400' cellspacing='10'cellpadding='20'>";
+      for(i=1;i<=rows;i++)
+      {
+    	output = output + "<tr>";
+        while(j<=cols)
+        {
+  		  output = output + "<td>" + i*j + "</td>";
+   		  j = j+1;
+   		}
+   		 output = output + "</tr>";
+   		 j = 1;
+    }
+    output = output + "</table>";
+    document.write(output);
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>
