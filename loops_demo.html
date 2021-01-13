@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type = "text/javascript">
+
+
+
+
+    var students = new Array("John", "Ann", "Aaron", "Edwin", "Elizabeth");
+    document.write("<h1>Using for loop </h1><br />");
+    for (i=0;i<students.length;i++)
+    {
+        document.write(students[i] + "</br >"); 
+    }
+
+
+
+
+    document.write("<h1>Using while loop </h1><br />");
+    var i = 0, j = 1, k;
+    document.write("Fibonacci series less than 40<br />");
+    while(i<40)
+    {
+        document.write(i + "<br />");
+        k = i+j;
+        i = j;
+        j = k;
+    }
+
+
+    document.write("<h1>Using do-while loop </h1><br />");
+    var i = 2;
+    document.write("Even numbers less than 20<br />");
+    do
+    {
+        document.write(i + "<br />");
+        i = i+2;
+    }
+    while(i<20)
+
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
